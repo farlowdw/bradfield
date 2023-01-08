@@ -9,19 +9,19 @@ import Button from '@mui/material/Button';
 
 const features = [
   {
-    title: 'Books',
+    title: 'Subjects',
     content:
-      `Technical knowledge may often be expressed on the web via blog posts or online periodicals, but the classic "book" medium cannot be replaced. Various books are rightly considered to be classics in their fields, and they are worth studying rigorously. It would be nice to dedicate many pages to all the wonderful books in existence, but that clearly cannot be the case. A few books that have caught my eye in particular appear on this site.`,
+      `The following subjects are stessed as points of emphasis: Programming, Computer Architecture, Algorithms and Data Structures, Math for CS, Operating Systems, Computer Networking, Databases, Languages and Compilers, Distributed Systems. Of course, other subjects may well be quite valuable to explore, but these are some of the major macro-level categories. Gaining knowledge, experience, and expertise in each of these fields will yield high dividends as an engineer.`,
   },
   {
     title: 'Courses',
     content:
-      `What learning activities regularly make use of books? Courses. It's hard to encounter many courses where a book is not explicitly required or at least suggested. This site notes a few different courses for which I have taken copious notes. The idea is that these notes can be referred back to so as to short-circuit the re-learning process.`,
+      `It is possible to simply work through the resources listed on teachyourselfcs.com on your own. But doing so without any pre-defined structure can be a real challenge. Part of Bradfield's goal is to provide helpful structure and community in trying to ensure time is spent in the most efficient manner as possible. Being in an actual course with others for which pay money also provides social and monetary accountability. Right now Bradfield offers two courses, namely "Software Systems: Behind the Abstractions" (8 weeks) and "The Bradfield Computer Science Intensive (12 months)."`
   },
   {
-    title: 'Guides',
+    title: 'Resources',
     content:
-      `Reading books and completing courses is wonderful, and sometimes you even get the chance to put your acquired knowledge to use. Sometimes it takes a while to solve a technical problem. Maybe the problem deserves to be remarked on in a blog post, but sometimes the solution process deserves a guide post of its own. This site has a few different guide posts to help fellow journeymen.`,
+      `Apart from resources provided directly from coursework, most suggested resources come from the teachyourselfcs.com site. Specifically, books and video lectures are the primary learning mediums that Bradfield promotes. Of course, coursework aims to put theory into practice in actually building a variety of different things that make direct use of the engineering knowledge being promoted.`,
   },
 ];
 

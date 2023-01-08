@@ -98,6 +98,30 @@ const sidebars = {
         'supplemental-resources/introduction',
       ]
     },
+    {
+      type: 'category',
+      label: 'SSBA (standalone course)',
+      collapsed: true,
+      items: [
+        'ssba/introduction',
+        'ssba/class-1',
+        'ssba/class-2',
+        'ssba/class-3',
+        'ssba/class-4',
+        'ssba/class-5',
+        'ssba/class-6',
+        'ssba/class-7',
+        'ssba/class-8',
+        'ssba/class-9',
+        'ssba/class-10',
+        'ssba/class-11',
+        'ssba/class-12',
+        'ssba/class-13',
+        'ssba/class-14',
+        'ssba/class-15',
+        'ssba/class-16',
+      ]
+    },
     'reference-list',
   ],
   // But you can create a sidebar manually

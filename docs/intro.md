@@ -15,6 +15,25 @@ toc_max_heading_level: 5
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+import ProgrammingResourcesCore from '@site/docs/_Partials/_subject-resources/_programming-core.md';
+import ProgrammingResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_programming-supplemental.md';
+import ComputerArchitectureResourcesCore from '@site/docs/_Partials/_subject-resources/_computer-architecture-core.md';
+import ComputerArchitectureResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_computer-architecture-supplemental.md';
+import DSAResourcesCore from '@site/docs/_Partials/_subject-resources/_dsa-core.md';
+import DSAResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_dsa-supplemental.md';
+import MathForCSResourcesCore from '@site/docs/_Partials/_subject-resources/_math-for-cs-core.md';
+import MathForCSResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_math-for-cs-supplemental.md';
+import OperatingSystemsResourcesCore from '@site/docs/_Partials/_subject-resources/_operating-systems-core.md';
+import OperatingSystemsResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_operating-systems-supplemental.md';
+import ComputerNetworkingResourcesCore from '@site/docs/_Partials/_subject-resources/_computer-networking-core.md';
+import ComputerNetworkingResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_computer-networking-supplemental.md';
+import DatabaseResourcesCore from '@site/docs/_Partials/_subject-resources/_databases-core.md';
+import DatabaseResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_databases-supplemental.md';
+import LanguagesAndCompilersResourcesCore from '@site/docs/_Partials/_subject-resources/_languages-and-compilers-core.md';
+import LanguagesAndCompilersResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_languages-and-compilers-supplemental.md';
+import DistributedSystemsResourcesCore from '@site/docs/_Partials/_subject-resources/_distributed-systems-core.md';
+import DistributedSystemsResourcesSupplemental from '@site/docs/_Partials/_subject-resources/_distributed-systems-supplemental.md';
+
 ## Overview
 
 :::info
@@ -180,75 +199,41 @@ No matter the choice of textbook or other secondary resources, study of distribu
 
 ## Resource map
 
-### Programming
+### Programming {#programming-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Structure and Interpretation of Computer Programs* | [Print](https://www.amazon.com/gp/product/0262510871) / [Online](https://web.mit.edu/6.001/6.037/sicp.pdf) | Purchased (Book and e-Book downloaded) |
-| *Composing Programs* | [Online](https://composingprograms.com/) | Found (no e-Book available) |
-| *How to Design Programs* | [Online](https://htdp.org/2022-8-7/Book/index.html) | Found (e-Book downloaded) |
-| *Learn Programming Wiki FAQ* (Reddit) | [Online](https://www.reddit.com/r/learnprogramming/wiki/faq/) | Found (no e-Book available) |
+<ProgrammingResourcesCore />
 
-### Computer Architecture
+### Computer Architecture {#architecture}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Computer Systems: A Programmer's Perspective* | [Print](https://www.amazon.com/dp/013409266X) | Purchased (and bad e-Book downloaded) |
-| *The Elements of Computing Systems* | [Print](https://www.amazon.com/Elements-Computing-Systems-second-Principles/dp/0262539802) | Purchased (and bad e-Book downloaded) |
-| *Computer Organization and Design* | [Print](https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture-dp-0128201096/dp/0128201096) | Purchased (and good olde e-Book downloaded and bad current e-Book downloaded) |
+<ComputerArchitectureResourcesCore />
 
-### Algorithms and Data Structures
+### Algorithms and Data Structures {#dsa-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *The Algorithm Design Manual* | [Print](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) | e-Book downloaded |
-| *How to Solve It* | [Print](https://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) | Purchased (and e-Book downloaded) |
+<DSAResourcesCore />
 
-### Math for CS
+### Math for CS {#math-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Lecture Notes by László Lovász* | [Online](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) | Found (e-Book downloaded) |
-| *Mathematics for Computer Science* | [Online](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf) | Found (e-Book downloaded) |
-| *Introduction to Linear Algebra* | [Print](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) | e-Book downloaded |
+<MathForCSResourcesCore />
 
-### Operating Systems
+### Operating Systems {#os-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Operating System Concepts* | [Print](https://www.amazon.com/dp/1118063333/) | e-Book downloaded |
-| *Modern Operating Systems* | [Print](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) | e-Book downloaded |
-| *Operating Systems: Three Easy Pieces* | [Print](https://www.amazon.com/gp/product/198508659X)/[Online](https://pages.cs.wisc.edu/~remzi/OSTEP/) | Purchased (and e-Book downloaded) |
+<OperatingSystemsResourcesCore />
 
-### Computer Networking
+### Computer Networking {#networking-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Computer Networking: A Top-Down Approach* | [Print](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/) | e-Book downloaded |
+<ComputerNetworkingResourcesCore />
 
-### Databases
+### Databases {#database-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Architecture of a Database System* | [Online](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf) | Printed (and e-Book downloaded) |
-| *Red Book* | [Online](http://www.redbook.io/) | E-book downloaded |
-| *Database Management Systems* | [Print](https://www.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/) | E-book downloaded |
-| *Transaction Processing: Concepts and Techniques* | [Print](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) | E-book downloaded |
-| *Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World* | [Print](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | Purchased (and e-Book downloaded) |
+<DatabaseResourcesCore />
 
-### Languages and Compilers
+### Languages and Compilers {#compilers-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Crafting Interpreters* | [Print](lhttps://www.amazon.com/Crafting-Interpreters-Robert-Nystrom/dp/0990582930ink)/[Online](https://craftinginterpreters.com/contents.html) | Purchased (and e-Book downloaded) |
-| *Compilers: Principles, Techniques, and Tools* | [Print](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) | E-book downloaded |
+<LanguagesAndCompilersResourcesCore />
 
-### Distributed Systems
+### Distributed Systems {#systems-resources}
 
-| Book | Format | Status |
-| :-- | :-- | :-- |
-| *Designing Data-Intensive Applications* | [Print](https://www.amazon.com/dp/1449373321) | Purchased (and e-Book downloaded) |
-| *Distributed Systems* | [Print](https://www.amazon.com/dp/1543057381/) / [Online](https://www.distributed-systems.net/index.php/books/ds3/) | E-book downloaded |
+<DistributedSystemsResourcesCore />
 
 ## Frequently asked questions
 
