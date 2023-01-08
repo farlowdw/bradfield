@@ -166,7 +166,7 @@ const config = {
         maxHeadingLevel: 5,
       },
       navbar: {
-        title: 'Books, Courses, Guides',
+        title: 'Bradfield CS',
         hideOnScroll: true,
         logo: {
           alt: 'Logo',
